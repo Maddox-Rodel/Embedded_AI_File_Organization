@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
-
  <widget class="QMainWindow" name="MainWindow">
-
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -12,13 +10,10 @@
     <height>500</height>
    </rect>
   </property>
-
   <property name="windowTitle">
    <string>AI Organizer</string>
   </property>
-
   <widget class="QWidget" name="centralwidget">
-
    <widget class="QLabel" name="titleLabel">
     <property name="geometry">
      <rect>
@@ -28,12 +23,10 @@
       <height>40</height>
      </rect>
     </property>
-
     <property name="text">
      <string>AI File Organizer</string>
     </property>
    </widget>
-
    <widget class="QPushButton" name="scanButton">
     <property name="geometry">
      <rect>
@@ -43,16 +36,41 @@
       <height>40</height>
      </rect>
     </property>
-
     <property name="text">
      <string>Scan Folder</string>
     </property>
    </widget>
-
+   <widget class="QFrame" name="DropFileHere">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>260</y>
+      <width>201</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>0</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DropFile Here</string>
+     </property>
+    </widget>
+   </widget>
   </widget>
-
  </widget>
-
  <resources/>
  <connections/>
 </ui>
