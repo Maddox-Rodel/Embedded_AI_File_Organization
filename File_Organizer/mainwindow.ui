@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+
+  <property name="windowTitle">
+   <string>AI Organizer</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+
+   <widget class="QLabel" name="titleLabel">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+
+    <property name="text">
+     <string>AI File Organizer</string>
+    </property>
+   </widget>
+
+   <widget class="QPushButton" name="scanButton">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>120</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+
+    <property name="text">
+     <string>Scan Folder</string>
+    </property>
+   </widget>
+
+  </widget>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>
